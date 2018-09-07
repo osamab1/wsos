@@ -7,10 +7,13 @@
 //============================================================================
 
 #include <iostream>
+#include "observer/observer.h"
+
 using namespace std;
 
 int main() {
 	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	ObserverDP::run();
 	return 0;
 }
 
